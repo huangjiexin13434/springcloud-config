@@ -1,0 +1,19 @@
+
+
+spring:
+  profiles: dev
+  
+---
+spring:
+  profiles: pro
+
+---
+spring:
+  profiles: dev
+  application:
+    name: dev环境
+---
+spring:
+  profiles: test
+  application:
+    name: test环境
