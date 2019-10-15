@@ -4,6 +4,7 @@ server:
 
 #数据库信息配置
 spring:
+  profiles: config8001
   application:
     name: micro-springcloud-provider-dept-8001 #应用名称
   datasource:
@@ -64,6 +65,7 @@ server:
 
 #数据库信息配置
 spring:
+  profiles: config8002
   application:
     name: micro-springcloud-provider-dept-8001 #应用名称
   datasource:
