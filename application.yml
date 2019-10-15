@@ -3,11 +3,16 @@ spring:
   profiles:
     active: dev
 ---
+server:
+  port: 8201
+  
 spring:
   profiles: dev
   application:
     name: dev环境111122
 ---
+server:
+  port: 8202
 spring:
   profiles: test
   application:
