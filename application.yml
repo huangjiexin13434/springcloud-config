@@ -6,9 +6,9 @@ spring:
 spring:
   profiles: dev
   application:
-    name: dev环境1111
+    name: dev环境111122
 ---
 spring:
   profiles: test
   application:
-    name: test环境11111
+    name: test环境1111122
